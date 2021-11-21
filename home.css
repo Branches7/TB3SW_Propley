@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
+
+body {
+  background: #201b2c;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #00ff8052;
+  background: #514869;
+  font-size: 14pt;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #f0ffffde;
+}
+
+.searchTerm::placeholder {
+  color: #f0ffffbe;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 5px solid #00ff8052;
+  background: #00ff88;
+  text-align: center;
+  color: #201b2c;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.wrap {
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -225%);
+}
