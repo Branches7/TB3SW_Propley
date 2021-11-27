@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <<link rel="stylesheet" href="../static/imagem.css" />
+</head>
+<body>
+{% for img in result %}
+    <div class="content">
+                <a href="{{ img['links']['download'] }}&force=true">
+                    <img src="{{ img['links']['download'] }}"/>
+                </a>
+      </div>
+{% endfor %}
+</body>
+</html>
